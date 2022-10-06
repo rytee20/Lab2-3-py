@@ -6,7 +6,7 @@ def generator(amount):
         b = randint(0,255)
         c = randint(0,255)
         d = randint(0,255)
-        f = open('ip-addresses.txt', 'a', encoding='utf-8')
+        f = open('ip.log', 'a', encoding='utf-8')
         f.write(str(a)+'.'+str(b)+'.'+str(c)+'.'+str(d)+'\n')
         f.close()
     print('Адреса сгенерированы!')
